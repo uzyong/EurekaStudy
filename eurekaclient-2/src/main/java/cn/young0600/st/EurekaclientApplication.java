@@ -14,7 +14,6 @@ public class EurekaclientApplication {
     @Bean //定义REST客户端，RestTemplate实例
     @LoadBalanced
         //开启负债均衡的能力
-        //test
     RestTemplate restTemplate() {
         return new RestTemplate();
     }
